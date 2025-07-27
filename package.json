@@ -10,12 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "^5.12.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "antd": "^5.12.8",
+    "sass": "^1.89.2",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
+    "@types/node": "^24.0.15",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -25,6 +27,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }
