@@ -5,6 +5,7 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
 import SignUp from './pages/signup/SignUp'
+import Slidermain from './shared/slidermain/Slidermain'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
     <Header/>
 
+    <Slidermain/>
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
