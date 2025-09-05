@@ -26,7 +26,6 @@ const Slidermain = ({
     width,
     imageWidth,
     imgClassName = '',
-    className = '',
 }: SlidermainProps) => {
 
     const slides = images.length ? images : [defaultImage];
